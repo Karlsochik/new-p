@@ -4,29 +4,29 @@ body {
 }
 
 header {
-	/*background: url(img/1.jpg);*/
+	background: url(img/1.jpg);
 	height: 900px;
 	width: 100%;
 	background-size: 100%;
 }
 
 .lang-nav {
-	margin: 2% 0% 0 82%;
+	margin: 2% 0% 0 80%;
 	position: absolute;
 }
 
 .lang-nav a {
-	font-size: 1.1em;
-	background: rgba(20,20,20,0.1);
-	color: #aaa;
+	font-size: 1em;
+	color: #111;
 	text-decoration: none;
-	border-radius: 5px;
+	border-bottom: 1px solid green;
+	padding: 10px 10px;
 }
 
 .lang-nav .active {
-	font-size: 1.2em;
+	font-size: 1em;
 	color: #666;
-	border-bottom: 1px solid #333; 
+	border-bottom: 1px solid #0a0; 
 }
 
 .logo {
@@ -34,38 +34,82 @@ header {
 	position: absolute;
 }
 
-.button {
+.info {
 	position: absolute;
-	background: rgba(2,2,2,0.1);
-	border-radius: 50px;
-	border: 0.1px solid #aaa;
-	margin: 60% 0 0 42.5%;
-	padding: 2% 5%;
+	margin: 25% 32% 0 32%
 }
 
-.button a {
-	padding: 1%;
-	text-decoration: none;
+/*-------------button-------------*/
+
+a.button {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  outline: none;
+  background: #ddd;
+  box-shadow: 0 1px rgba(0,0,0,.1) inset, 0 1px #fff;
+  margin: 750px 0 0 580px;
 }
+a.button:after, a.button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 7.5%;
+  left: -15%;
+  right: 0;
+  bottom: 0;
+  width: 30%;
+  height: 10%;
+  margin: auto;
+  background: #999;
+  box-shadow: 0 1px rgba(0,0,0,.1) inset, 0 1px #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+a.button:before {
+  left: 15%;
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+a.button:hover, a.button:focus {
+  background: #999;
+  box-shadow: none;
+}
+a.button:hover:after, a.button:hover:before {
+  background: #fff;
+  box-shadow: none;
+}
+
+/*----------------main-------------*/
 
 .main-nav {
-	border: 2px solid #111;
-	width: 99%;
-	margin-left: 0.5%; 
+	border-top: 2px solid #111;
+	border-bottom: 2px solid #111;
+	width: 100%;
+	margin: 10px 0 10px 0; 
+}
+.main-nav li {
+float: left;
 }
 
 .main-nav ul {
-	margin-left: 25%;
-}
-
-.main-nav li {
-	padding: -0 4% 0 3%;
-    height:20px;
-    display: inline-block;
-    border-left:3px solid #ddd; 
+height: 20px;
+margin-left: 20%;
 }
 
 .main-nav a {
 	text-decoration: none;
 	color: #01ff00;
+	padding: 0px 1% 5px 3%; 
+    height:20px;
+    border-left:3px solid #ddd; 
 }
+a.main-nav:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.main-nav:active { background: rgb(152,15,0); } /* при нажатии */
+.logo-nav {
+
+}
+
