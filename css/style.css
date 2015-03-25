@@ -4,8 +4,8 @@ body {
 }
 
 header {
-	background: url(img/1.jpg);
-	height: 900px;
+	/*background: url(../img/1.jpg);*/
+	height: 700px;
 	width: 100%;
 	background-size: 100%;
 }
@@ -39,77 +39,23 @@ header {
 	margin: 25% 32% 0 32%
 }
 
-/*-------------button-------------*/
-
-a.button {
-  position: relative;
-  z-index: 1;
-  display: inline-block;
-  width: 3em;
-  height: 3em;
-  border-radius: 100%;
-  outline: none;
-  background: #ddd;
-  box-shadow: 0 1px rgba(0,0,0,.1) inset, 0 1px #fff;
-  margin: 750px 0 0 580px;
-}
-a.button:after, a.button:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 7.5%;
-  left: -15%;
-  right: 0;
-  bottom: 0;
-  width: 30%;
-  height: 10%;
-  margin: auto;
-  background: #999;
-  box-shadow: 0 1px rgba(0,0,0,.1) inset, 0 1px #fff;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-a.button:before {
-  left: 15%;
-  -webkit-transform: rotate(315deg);
-  transform: rotate(315deg);
-}
-a.button:hover, a.button:focus {
-  background: #999;
-  box-shadow: none;
-}
-a.button:hover:after, a.button:hover:before {
-  background: #fff;
-  box-shadow: none;
-}
-
-/*----------------main-------------*/
-
-.main-nav {
-	border-top: 2px solid #111;
-	border-bottom: 2px solid #111;
-	width: 100%;
-	margin: 10px 0 10px 0; 
-}
-.main-nav li {
-float: left;
-}
+/*---------------main--------------*/
 
 .main-nav ul {
-height: 20px;
-margin-left: 20%;
+	border-top: 1px solid #0a0;
+	border-bottom: 1px solid #0a0;
+}
+
+.main-nav li {
+	display: inline-block;
+	text-decoration: none;
+	padding:  20px 0;
+	border-left: 3px double #0a0;
 }
 
 .main-nav a {
 	text-decoration: none;
-	color: #01ff00;
-	padding: 0px 1% 5px 3%; 
-    height:20px;
-    border-left:3px solid #ddd; 
-}
-a.main-nav:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
-a.main-nav:active { background: rgb(152,15,0); } /* при нажатии */
-.logo-nav {
-
+	color: black;
+	padding: 10px 60px;
 }
 
