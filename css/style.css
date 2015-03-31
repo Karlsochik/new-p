@@ -6,14 +6,14 @@ body {
 }
 
 header {
-   /* background: url(../img/1.jpg);*/
+    background: url(../img/2.jpg);
     height: 800px;
     width: 100%;
     background-size: 100%;
 }
 
 .lang-nav {
-    margin: 2% 0% 0 80%;
+    margin: 3% 0% 0 79%;
     position: absolute;
 }
 
@@ -21,14 +21,14 @@ header {
     font-size: 1em;
     color: #111;
     text-decoration: none;
-    border-bottom: 1px solid #f27933;
-    padding: 10px 20px;
+    border-bottom: 2px solid #f27933;
+    padding: 10px 15px;
 }
 
 .lang-nav .active {
     font-size: 1em;
     color: #666;
-    border-bottom: 1px solid #9ab73b; 
+    border-bottom: 2px solid #9ab73b; 
 }
 
 .logo {
@@ -46,11 +46,11 @@ header {
 }
 
 /*---------------main--------------*/
+
 .main-nav {
     border-top: 2px solid #9ab73b;
     border-bottom: 2px solid #9ab73b;
     text-align: center;
-    margin-top: -14px;
     padding: 5px 0 0 5px;
     background: rgb(245,245,245);
     box-shadow: 0em 0.4em 10px rgba(122,122,122,0.5);
@@ -65,7 +65,7 @@ header {
 .main-nav li {
     display: inline-block;
     text-decoration: none;
-    padding:  10px 0;
+    padding:  30px 0;
     float: left;
 }
 
@@ -89,8 +89,8 @@ header {
 /*-----------------production----------------*/
 
 .wrapper {
-    margin-top: 10%;
-    height: 50px;
+    margin-top: 7%;
+    height: 35px;
     width: 100%;
     border-top: 2px solid #f27933; 
     border-bottom: 2px solid #f27933; 
@@ -106,6 +106,28 @@ header {
     text-decoration: none;
 }
 
-.production-info {
-    margin-top: 200px;
+.production-main {
+    margin: 20px 0 20px 2px;
+    padding: 1%;
+    background: rgb(235,240,235);
+    width: 15%;
+    height: 600px;
+    display: inline-table;
+}
+
+.production-main img {
+    margin: 10px 20px 10px 40px;
+    border-radius: 100%;
+    width: 200px;
+    height: 190px;
+}
+
+.production-main li {
+    display: block;
+}
+
+.production-main a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.5em;
 }
