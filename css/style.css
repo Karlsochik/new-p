@@ -27,7 +27,7 @@ header {
 
 .lang-nav .active {
     font-size: 1em;
-    color: #666;
+    color: #676;
     border-bottom: 2px solid #9ab73b; 
 }
 
@@ -39,12 +39,6 @@ header {
     top:20%;
     margin:100px 0 0 px;
 }
-
-.info {
-    position: absolute;
-    margin: 25% 52% 0 35%
-}
-
 /*---------------main--------------*/
 
 .main-nav {
@@ -73,8 +67,7 @@ header {
     text-decoration: none;
     color: #555;
     padding: 10px 45px;
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 1.1em;
 }
 
 .logo-nav {
@@ -89,7 +82,9 @@ header {
 /*-----------------production----------------*/
 
 .wrapper {
-    margin-top: 7%;
+    float: right;
+    padding: 5px 5px;
+    margin-top: 8%;
     height: 35px;
     width: 100%;
     border-top: 2px solid #f27933; 
@@ -107,10 +102,10 @@ header {
 }
 
 .production-main {
-    margin: 20px 0 20px 2px;
+    margin: 110px 11px 20px 14px;
     padding: 1%;
     background: rgb(235,240,235);
-    width: 15%;
+    width: 18%;
     height: 600px;
     display: inline-table;
 }
@@ -131,3 +126,32 @@ header {
     color: #555;
     font-size: 1.5em;
 }
+
+/*-------------------------------*/
+
+.info {
+    margin:110px 20px;
+    float: left;
+}
+
+.info-text {
+    width: 60%;
+    text-align: center;
+    background: rgb(240,240,240);
+    float: left;
+}
+
+.info p {
+    color: #444;
+}
+
+.info-img {
+    width: 20%;  
+    float: left;
+}
+
+.info-img img {
+    width: 100%;
+    height: 200px;
+}
+
