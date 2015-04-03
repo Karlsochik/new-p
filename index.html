@@ -20,18 +20,14 @@
 			</div>
 		</header>
 		<section class="nav">
-			<div class="logo-nav">	
-				<span>LOGO</span>
-			</div>	
-
 			<nav class="main-nav" >
 				<ul>		
 					<li><a href="#header">Головна</a></li>
 					<li><a href="#production">Продукція</a></li>
 					<li><a href="#">Галерея</a></li>
 					<li><a href="#">Новини</a></li>
-					<li><a href="#">Про нас</a></li>
-					<li><a href="#">Контакти</a></li>
+					<li><a href="#info">Про нас</a></li>
+					<li><a href="#contacty">Контакти</a></li>
 				</ul>
 			</nav>
 		</section>
@@ -41,8 +37,8 @@
 			</div>
 
 			<div class="production-main">
-			<h2 align="center">Жалюзі</h2>
-				<img src="img/3.jpg">
+			<h2>Жалюзі</h2>
+				<img src="img/4.jpg">
 				<ul>
 					<li><a href="#">Вертикальні</a></li>
 					<li><a href="#">Горизонтальні</a></li>
@@ -51,17 +47,7 @@
 				</ul>
 			</div>
 			<div class="production-main">
-			<h2 align="center">Ролети</h2>
-				<img src="img/4.jpg">
-				<ul>
-					<li><a href="#">З вишнею</a></li>
-					<li><a href="#">З шоколадом</a></li>
-					<li><a href="#">З полуницею</a></li>
-					<li><a href="#">З бананом</a></li>
-				</ul>
-			</div>	
-			<div class="production-main">
-			<h2 align="center">Ролети</h2>
+			<h2>Ролети</h2>
 				<img src="img/3.jpg">
 				<ul>
 					<li><a href="#">З вишнею</a></li>
@@ -71,8 +57,18 @@
 				</ul>
 			</div>	
 			<div class="production-main">
-			<h2 align="center">Ролети</h2>
+			<h2>Ролети</h2>
 				<img src="img/4.jpg">
+				<ul>
+					<li><a href="#">З вишнею</a></li>
+					<li><a href="#">З шоколадом</a></li>
+					<li><a href="#">З полуницею</a></li>
+					<li><a href="#">З бананом</a></li>
+				</ul>
+			</div>	
+			<div class="production-main">
+			<h2>Ролети</h2>
+				<img src="img/3.jpg">
 				<ul>
 					<li><a href="#">З вишнею</a></li>
 					<li><a href="#">З шоколадом</a></li>
@@ -82,8 +78,8 @@
 			</div>	
 		</section>
 		<section>
-			<div class="wrapper">
-				<a href="#production">Про нас</a>
+			<div class="wrapper" id="info">
+				<a href="#">Про нас</a>
 			</div>
 			<div class="info">
 				<div class="info-text">
@@ -105,19 +101,38 @@
 				<div class="info-foto">
 					<div class="info-img">
 						<img src="img/4.jpg" height="356" width="640">
-						<img src="img/3.jpg" height="356" width="640">
+						<img src="img/2.jpg" height="356" width="640">
 					</div>
 					<div class="info-img">
-						<img src="img/2.jpg" height="356" width="640">
+						<img src="img/3.jpg" height="356" width="640">
 						<img src="img/1.jpg" height="356" width="640">
 					</div>
 				</div>
 			</div>
 		</section>
 		<section>
-			<div class="contacty">
+			<div class="contacty" id="contacty">
 				<div class="wrapper">
 					<a href="#production">Контакти</a>
+				</div>
+				<div class="connection">
+					<form>
+							  <label>Ім'я</label>
+					    <input name="name" placeholder="Іван">
+
+					    <label>Прізвище</label>
+					    <input name="name" placeholder="Іваненко">
+					            
+					    <label>Електронна пошта</label>
+					    <input name="email" type="email" placeholder="email.adress@gmail.com">
+					        <label>Телефон</label>
+					    <input name="email" type="email" placeholder="0632525252">
+
+					    <label>Напишить нам</label>
+					    <textarea name="message" placeholder="Наберіть тут ваше повідомлення"></textarea>
+					            
+					    <input id="submit" name="submit" type="submit" value="Submit">
+					</form>
 				</div>
 			</div>
 		</section>

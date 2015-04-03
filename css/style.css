@@ -42,6 +42,7 @@ header {
 /*---------------main--------------*/
 
 .main-nav {
+    width: 100%;
     border-top: 2px solid #9ab73b;
     border-bottom: 2px solid #9ab73b;
     text-align: center;
@@ -53,13 +54,13 @@ header {
 .main-nav ul {
     display: inline-block;
     overflow: hidden;
-    margin: 0px 5%;
+    margin: 0px 4%;
 }
 
 .main-nav li {
     display: inline-block;
     text-decoration: none;
-    padding:  30px 0;
+    padding:  20px 0;
     float: left;
 }
 
@@ -117,6 +118,10 @@ header {
     height: 190px;
 }
 
+.production-main h2 {
+    text-align: center;
+}
+
 .production-main li {
     display: block;
 }
@@ -132,12 +137,13 @@ header {
 .info {
     margin:110px 20px;
     float: left;
+    background: rgb(240,240,240);
+    height: 550px;
 }
 
 .info-text {
     width: 60%;
     text-align: center;
-    background: rgb(240,240,240);
     float: left;
 }
 
@@ -152,6 +158,73 @@ header {
 
 .info-img img {
     width: 100%;
-    height: 200px;
+    height: 245px;
 }
 
+/*---------------contacty----------*/
+
+.connection {
+    width: 50%;
+    margin:50px 20px 20px 20px;
+    float: left;
+}
+    
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+form {
+    margin:0 auto;
+    width:459px;
+}
+ 
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+ 
+textarea {
+    height:213px;
+    background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+
+input, textarea { 
+    width:439px; 
+    height:27px; 
+    background:#efefef; 
+    border:1px solid #dedede; 
+    padding:10px; 
+    margin-top:3px; 
+    font-size:0.9em; 
+    color:#3a3a3a; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    border-radius:5px; 
+}
+ 
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+    
+#submit {
+    width:127px;
+    height:38px;
+    background:#555;
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+ 
+#submit:hover {
+    opacity:.9;
+}
